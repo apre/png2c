@@ -1,0 +1,10 @@
+
+= Build instruction
+
+gcc png2c.c -lpng -o png2c
+
+
+
+= Test
+ ./png2c tests/tux.png deleteme.png
+
