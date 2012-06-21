@@ -1,0 +1,50 @@
+﻿La génération a démarré 30/05/2012 09:18:51.
+     1>Projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\libpng\libpng.vcxproj" sur le nœud 3 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug Library\libpng.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\..\..\zlib-1.2.7" /Zi /nologo /W4 /WX /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yc"pngpriv.h" /Fp"Debug Library\libpng15.pch" /Fo"Debug Library\\" /Fd"Debug Library\vc100.pdb" /FR"Debug Library\\" /Gd /TC /wd4996 /wd4127 /analyze- /errorReport:prompt ..\..\..\png.c
+         png.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\..\..\zlib-1.2.7" /Zi /nologo /W4 /WX /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /GF /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /fp:except- /Zc:wchar_t- /Zc:forScope /Yu"pngpriv.h" /Fp"Debug Library\libpng15.pch" /Fo"Debug Library\\" /Fd"Debug Library\vc100.pdb" /FR"Debug Library\\" /Gd /TC /wd4996 /wd4127 /analyze- /errorReport:prompt ..\..\..\pngerror.c ..\..\..\pngget.c ..\..\..\pngmem.c ..\..\..\pngpread.c ..\..\..\pngread.c ..\..\..\pngrio.c ..\..\..\pngrtran.c ..\..\..\pngrutil.c ..\..\..\pngset.c ..\..\..\pngtrans.c ..\..\..\pngwio.c ..\..\..\pngwrite.c ..\..\..\pngwtran.c ..\..\..\pngwutil.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+         Génération de code en cours...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\libpng15.lib" /NOLOGO "Debug Library\png.obj"
+         "Debug Library\pngerror.obj"
+         "Debug Library\pngget.obj"
+         "Debug Library\pngmem.obj"
+         "Debug Library\pngpread.obj"
+         "Debug Library\pngread.obj"
+         "Debug Library\pngrio.obj"
+         "Debug Library\pngrtran.obj"
+         "Debug Library\pngrutil.obj"
+         "Debug Library\pngset.obj"
+         "Debug Library\pngtrans.obj"
+         "Debug Library\pngwio.obj"
+         "Debug Library\pngwrite.obj"
+         "Debug Library\pngwtran.obj"
+         "Debug Library\pngwutil.obj"
+         libpng.vcxproj -> C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\libpng15.lib
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\libpng15.bsc" "Debug Library\png.sbr" "Debug Library\pngerror.sbr" "Debug Library\pngget.sbr" "Debug Library\pngmem.sbr" "Debug Library\pngpread.sbr" "Debug Library\pngread.sbr" "Debug Library\pngrio.sbr" "Debug Library\pngrtran.sbr" "Debug Library\pngrutil.sbr" "Debug Library\pngset.sbr" "Debug Library\pngtrans.sbr" "Debug Library\pngwio.sbr" "Debug Library\pngwrite.sbr" "Debug Library\pngwtran.sbr" "Debug Library\pngwutil.sbr"
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug Library\libpng.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug Library\libpng.lastbuildstate".
+     1>Génération du projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\libpng\libpng.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.76

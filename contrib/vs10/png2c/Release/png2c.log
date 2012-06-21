@@ -1,0 +1,18 @@
+﻿La génération a démarré 30/05/2012 13:07:14.
+     1>Projet "C:\Users\apre.CORP\Dropbox\devel\png2c\contrib\vs10\png2c\png2c.vcxproj" sur le nœud 2 (build cible(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale.  Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+     1>InitializeBuildStatus:
+         Création de "Release\png2c.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         Toutes les sorties sont à jour.
+       Link:
+         Toutes les sorties sont à jour.
+         png2c.vcxproj -> C:\Users\apre.CORP\Dropbox\devel\png2c\contrib\vs10\png2c\Release\png2c.exe
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\png2c.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\png2c.lastbuildstate".
+     1>Génération du projet "C:\Users\apre.CORP\Dropbox\devel\png2c\contrib\vs10\png2c\png2c.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.04

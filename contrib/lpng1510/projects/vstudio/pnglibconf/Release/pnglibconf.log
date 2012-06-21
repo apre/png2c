@@ -1,0 +1,14 @@
+﻿La génération a démarré 30/05/2012 09:18:50.
+     1>Projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\pnglibconf\pnglibconf.vcxproj" sur le nœud 3 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Release\pnglibconf.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\pnglibconf.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\pnglibconf.lastbuildstate".
+       CustomBuildStep:
+       La cible est ignorée "CustomBuildStep", car tous les fichiers de sortie sont à jour par rapport aux fichiers d'entrée.
+     1>Génération du projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\pnglibconf\pnglibconf.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.04

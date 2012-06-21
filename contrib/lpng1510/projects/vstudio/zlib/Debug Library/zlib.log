@@ -1,0 +1,43 @@
+﻿La génération a démarré 30/05/2012 09:18:50.
+     1>Projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\zlib\zlib.vcxproj" sur le nœud 2 (build cible(s)).
+     1>PrepareForBuild:
+         Création du répertoire "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\".
+       InitializeBuildStatus:
+         Création de "Debug Library\zlib.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug Library\\" /Fd"Debug Library\vc100.pdb" /FR"Debug Library\\" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\zlib-1.2.7\adler32.c" "..\..\..\..\zlib-1.2.7\compress.c" "..\..\..\..\zlib-1.2.7\crc32.c" "..\..\..\..\zlib-1.2.7\deflate.c" "..\..\..\..\zlib-1.2.7\infback.c" "..\..\..\..\zlib-1.2.7\inffast.c" "..\..\..\..\zlib-1.2.7\inflate.c" "..\..\..\..\zlib-1.2.7\inftrees.c" "..\..\..\..\zlib-1.2.7\trees.c" "..\..\..\..\zlib-1.2.7\uncompr.c" "..\..\..\..\zlib-1.2.7\zutil.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Génération de code en cours...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\zlib.lib" /NOLOGO "Debug Library\adler32.obj"
+         "Debug Library\compress.obj"
+         "Debug Library\crc32.obj"
+         "Debug Library\deflate.obj"
+         "Debug Library\infback.obj"
+         "Debug Library\inffast.obj"
+         "Debug Library\inflate.obj"
+         "Debug Library\inftrees.obj"
+         "Debug Library\trees.obj"
+         "Debug Library\uncompr.obj"
+         "Debug Library\zutil.obj"
+         zlib.vcxproj -> C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\zlib.lib
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\zlib.bsc" "Debug Library\adler32.sbr" "Debug Library\compress.sbr" "Debug Library\crc32.sbr" "Debug Library\deflate.sbr" "Debug Library\infback.sbr" "Debug Library\inffast.sbr" "Debug Library\inflate.sbr" "Debug Library\inftrees.sbr" "Debug Library\trees.sbr" "Debug Library\uncompr.sbr" "Debug Library\zutil.sbr"
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug Library\zlib.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug Library\zlib.lastbuildstate".
+     1>Génération du projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\zlib\zlib.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:01.18

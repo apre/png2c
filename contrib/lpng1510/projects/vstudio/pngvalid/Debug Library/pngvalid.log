@@ -1,0 +1,70 @@
+﻿La génération a démarré 30/05/2012 09:18:55.
+     1>Projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\pngvalid\pngvalid.vcxproj" sur le nœud 3 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug Library\pngvalid.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\..\..\..\zlib-1.2.7" /I..\..\..\scripts /Zi /nologo /W4 /WX /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /Fo"Debug Library\\" /Fd"Debug Library\vc100.pdb" /FR"Debug Library\\" /Gd /TC /wd4996 /wd4127 /analyze- /errorReport:prompt ..\..\..\contrib\libtests\pngvalid.c
+         pngvalid.c
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\pngvalid.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\\" libpng15.lib zlib.lib /MANIFEST /ManifestFile:"Debug Library\pngvalid.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\pngvalid.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\pngvalid.lib" /MACHINE:X86 "Debug Library\pngvalid.obj"
+         pngvalid.vcxproj -> C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\pngvalid.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\pngvalid.exe;#1" /manifest "Debug Library\pngvalid.exe.intermediate.manifest"
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\pngvalid.bsc" "Debug Library\pngvalid.sbr"
+       CustomBuildStep:
+         Description: Executing PNG validation program
+         "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\Debug Library\pngvalid.exe" --touch "Debug Library\pngvalid.out"
+         :VCEnd
+         Gamma correction error summary
+         
+         The printed value is the maximum error in the pixel values
+         calculated by the libpng gamma correction code.  The error
+         is calculated as the difference between the output pixel
+         value (always an integer) and the ideal value from the
+         libpng specification (typically not an integer).
+         
+         Expect this value to be less than .5 for 8 bit formats,
+         less than 1 for formats with fewer than 8 bits and a small
+         number (typically less than 5) for the 16 bit formats.
+         For performance reasons the value for 16 bit formats
+         increases when the image file includes an sBIT chunk.
+         
+           2 bit gray:  0.50495
+           4 bit gray:  0.81888
+           8 bit gray:  0.49933
+           8 bit color: 0.49933
+           indexed:     0.00000
+          16 bit gray:  0.74080
+          16 bit color: 0.74080
+         Gamma correction with sBIT:
+          16 bit gray:  0.74058
+          16 bit color: 0.74058
+         Gamma correction with 16 to 8 bit reduction:
+          16 bit gray:  1.97052
+          16 bit color: 1.97052
+         Gamma correction with background:
+           2 bit gray:  0.00000
+           4 bit gray:  0.00000
+           8 bit gray:  19.69798
+           8 bit color: 19.16293
+           indexed:     0.00000
+          16 bit gray:  1.54811
+          16 bit color: 68.26324
+         Gamma correction with alpha mode:
+           2 bit gray:  0.00000
+           4 bit gray:  0.00000
+           8 bit gray:  17.48251
+           8 bit color: 17.48251
+           indexed:     0.00000
+          16 bit gray:  309.24044
+          16 bit color: 310.97330
+         PASS: pngvalid --touch Debug Library\pngvalid.out (floating point arithmetic)
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug Library\pngvalid.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug Library\pngvalid.lastbuildstate".
+     1>Génération du projet "C:\Users\APre\Dropbox\devel\png2c\contrib\lpng1510\projects\vstudio\pngvalid\pngvalid.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:21.15

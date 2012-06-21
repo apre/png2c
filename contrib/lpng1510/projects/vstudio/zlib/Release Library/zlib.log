@@ -1,0 +1,38 @@
+﻿La génération a démarré 30/05/2012 09:02:48.
+     1>Projet "C:\Users\APre\Dropbox\devel\libpng\lpng1510\projects\vstudio\zlib\zlib.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Release Library\zlib.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX /Ox /Oi /Oy- /GL /Gm- /EHsc /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release Library\\" /Fd"Release Library\vc100.pdb" /FR"Release Library\\" /Gd /TC /analyze- /errorReport:prompt "..\..\..\..\zlib-1.2.7\adler32.c" "..\..\..\..\zlib-1.2.7\compress.c" "..\..\..\..\zlib-1.2.7\crc32.c" "..\..\..\..\zlib-1.2.7\deflate.c" "..\..\..\..\zlib-1.2.7\infback.c" "..\..\..\..\zlib-1.2.7\inffast.c" "..\..\..\..\zlib-1.2.7\inflate.c" "..\..\..\..\zlib-1.2.7\inftrees.c" "..\..\..\..\zlib-1.2.7\trees.c" "..\..\..\..\zlib-1.2.7\uncompr.c" "..\..\..\..\zlib-1.2.7\zutil.c"
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\APre\Dropbox\devel\libpng\lpng1510\projects\vstudio\Release Library\zlib.lib" /NOLOGO /LTCG "Release Library\adler32.obj"
+         "Release Library\compress.obj"
+         "Release Library\crc32.obj"
+         "Release Library\deflate.obj"
+         "Release Library\infback.obj"
+         "Release Library\inffast.obj"
+         "Release Library\inflate.obj"
+         "Release Library\inftrees.obj"
+         "Release Library\trees.obj"
+         "Release Library\uncompr.obj"
+         "Release Library\zutil.obj"
+         zlib.vcxproj -> C:\Users\APre\Dropbox\devel\libpng\lpng1510\projects\vstudio\Release Library\zlib.lib
+       BscMake:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\APre\Dropbox\devel\libpng\lpng1510\projects\vstudio\Release Library\zlib.bsc" "Release Library\adler32.sbr" "Release Library\compress.sbr" "Release Library\crc32.sbr" "Release Library\deflate.sbr" "Release Library\infback.sbr" "Release Library\inffast.sbr" "Release Library\inflate.sbr" "Release Library\inftrees.sbr" "Release Library\trees.sbr" "Release Library\uncompr.sbr" "Release Library\zutil.sbr"
+     1>BSCMAKE : error BK1506: impossible d'ouvrir le fichier 'Release Library\trees.sbr'
+     1>Génération du projet "C:\Users\APre\Dropbox\devel\libpng\lpng1510\projects\vstudio\zlib\zlib.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:03.44

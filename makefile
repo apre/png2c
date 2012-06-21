@@ -16,4 +16,4 @@ png2c: $(OBJS)
 	$(CC) -o $@ $(OBJS) $(LIBS)
 
 test:
-	./png2c tests/tux.png dtux.png
+	./png2c --input=rgb.png --output=out.png --c_name=out --color_depth=RGB565 
