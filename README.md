@@ -2,6 +2,7 @@ png2c
 =====
 
 a small fast tool to convert a png file into a C file that can be embedeed.
+It has been taken from   http://zarb.org/~gc/html/libpng.html  and customized to my needs. 
 
 
 
